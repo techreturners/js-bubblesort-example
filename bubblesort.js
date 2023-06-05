@@ -16,8 +16,10 @@ function bubbleSort(arr) {
   console.log(`Sorted numbers: ${arr}`);
 }
 
-const randomNumberArray = [...Array(100000)].map((_) =>
-  Math.ceil(Math.random() * 100000)
+const elements = 100000;
+
+const randomNumberArray = [...Array(elements)].map((_) =>
+  Math.ceil(Math.random() * elements)
 );
 
 console.log(`Unsorted numbers:  ${randomNumberArray}`);
